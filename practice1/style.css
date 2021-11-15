@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background-color: rgb(74, 183, 255);
+}
+.gray {
+    background-color: lightgray;
+}
+
+.header,
+.footer,
+.right,
+.content,
+.left {
+    padding: 20px;
+}
+.container {
+    display: flex;
+    height: 300px;
+}
+.right,
+.left {
+    width: 20%;
+}
+.content {
+    width: 60%;
+}
