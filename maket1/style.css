@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('background1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: column;
+    /* background-color: rgba(245, 245, 245, 0.344); */
+}
+.header-top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    text-align: right;
+}
+.logo {
+    width: 80px;
+}
+.header-top .sm-text {
+    font-size: 10px;
+    font-style: italic;
+}
+.header-top .phone {
+    font-size: 25px;
+}
+.header-menu {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+.menu-item {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.header-menu .menu-item {
+    padding: 30px 30px;
+    width: 16.6%;
+    margin-right: 2px;
+}
+.blue {
+    background: rgb(54, 121, 245);
+}
+.green {
+    background: rgb(44, 196, 30);
+}
+.yellow {
+    background: rgb(228, 181, 28);
+}
+.purple {
+    background: rgb(75, 4, 146);
+}
+.orange {
+    background: rgb(248, 131, 21);
+}
+.pink {
+    background: rgb(226, 29, 210);
+}
+.red {
+    background: rgb(220, 33, 33);
+}
+
+.main {
+    /* background-color: rgba(255, 99, 71, 0.46); */
+    display: flex;
+    color: white;
+}
+.left-menu {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+.left-menu .menu-item {
+    padding: 30px 30px;
+    background-color: crimson;
+}
+.left-menu .menu-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.slider-item {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 130px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.slider-item .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.slider-item button {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+.cards {
+    display: flex;
+    flex-flow: row;
+    margin: 30px 0;
+}
+.card {
+    padding: 30px 50px;
+    text-align: center;
+}
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+.footer {
+    background: rgba(64, 224, 208, 0.398);
+}
