@@ -94,7 +94,7 @@ a {
 .header-content .left .text {
     line-height: 27px;
 }
-.header-content .left .btn-gold {
+.btn-gold {
     width: 226px;
     height: 53px;
     background-color: #BC6C25;
@@ -308,4 +308,56 @@ a {
     .about .numbers-info {
         margin: 0 20px;
     }
+}
+
+
+.modal {
+    background: rgba(0, 0, 0, 0.68);
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999;
+    color: black;
+    text-align: center;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+.modal.active {
+    display: block;
+    opacity: 1;
+}
+.modal .window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    border: 1px solid #cecece;
+    padding: 50px;
+    transform: translate(-50%,-50%);
+    background-color: #fafafa;
+}
+.modal .window .close-window {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    border: none;
+    cursor: pointer;
+}
+.modal .form-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.modal input {
+    height: 35px;
+    width: 330px;
+}
+.modal p {
+    font-weight: bold;
+    letter-spacing: normal;
 }
